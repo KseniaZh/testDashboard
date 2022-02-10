@@ -1,0 +1,20 @@
+.containers_wrapper {
+    @include width-height-margin-padding( 100%, 100%, 0, 0 );
+    position: relative;
+
+    > h2 {
+        @include width-height-margin-padding( 330px, 40px, 0 0 40px 0, 0 );
+        color: $color_title;
+        font-family: $font_title;
+        font-weight: bold;
+        font-size: 26px;
+    }
+
+    .containers_name {
+        margin-top: -36px;
+        color: $color_title;
+        font-family: $font_title;
+        font-weight: 600;
+        font-size: 14px;
+    }
+}

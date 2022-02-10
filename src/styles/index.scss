@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+input {
+        outline: none !important;
+    }
+
+@import './const.scss';
+@import './mixin.scss';
+@import './keyframes_const.scss';
+
+@import './Containers.scss';
+
+@import '../Navigation/Main.scss';
+
+@import '../Dashboard/Dashboard.scss';
+@import '../Dashboard/components/Search.scss';
+@import '../Dashboard/components/TableDashboard.scss';
+@import '../Dashboard/components/DoNotHaveState.scss';
+
+@import './UI/buttons.scss';
+
+.app {
+    width: 100%;
+    height: auto;
+    background: $background_app;
+}

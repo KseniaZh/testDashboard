@@ -1,0 +1,29 @@
+$background_app: #808080 ;
+$background_wrapper: #E5E5E5;
+$background_search: #FFFFFF;
+
+$background_market: #E14165; //4 * 70
+$background_delivery: #C2C2FF;
+$background_games: #8686FF;
+
+$background_button :#2EE5AC;
+
+$color_title: #222222;
+$color_search_1: #222222;
+$color_search_2: #474747;
+$color_placeholder: #D1D1D1;
+$color_thead: #999999;
+$color_row_1: #474747;
+$color_row_2: #5C5C5C;
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+$font_title: 'Montserrat', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+$fonts_search: 'Roboto', sans-serif;
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
+$fonts_button_back: 'Nunito', sans-serif;
+
+$color_shadow: rgba(0, 0, 0, 0.15);

@@ -1,0 +1,16 @@
+.button__goBack {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: $color_title;
+    font-family: $fonts_button_back;
+    font-size: 18px;
+}
+.button__goBack_icon{
+    margin-right: 18.96px;
+}
+

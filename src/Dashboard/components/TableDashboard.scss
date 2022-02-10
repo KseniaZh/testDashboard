@@ -1,0 +1,103 @@
+.dashboard__table {
+    @include width-height-margin-padding( 100%, 45px, 0, 0);
+}
+.dashboard__table__thead {
+    @include width-height-margin-padding( 100%, auto, 0, 10px 0);
+}
+.dashboard__table__tablebody_row {
+    @include width-height-margin-padding( 100%, 70px, 0 0 5px, 0 );
+    background-color: $background_search;
+    border-radius: 3px;
+}
+.dashboard__table__tablebody_row:hover {
+    box-shadow: 0 0 20px 0px $color_shadow;
+}
+.dashboard__table__thead,
+.dashboard__table__tablebody_row {
+    display: flex;
+    flex-direction: row;
+
+    > * {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        cursor: pointer;
+    }
+
+    > :nth-child(1) {
+        @include width-height-margin-padding( 4px, 100%, 0, 0);
+    }
+
+    > :nth-child(2) {
+        @include width-height-margin-padding( 400px, 100%, 0, 0 0 0 11px);
+        font-family: $fonts_search;
+        font-weight: 500;
+        font-size: 13px;
+        color: $color_row_1;
+    }
+
+    > :nth-child(3) {
+        @include width-height-margin-padding( 125px, 100%, 0, 0 0 0 25px);
+        font-family: $fonts_search;
+        font-weight: 400;
+        font-size: 12px;
+        color: $color_row_2;
+    }
+
+    > :nth-child(4) {
+        @include width-height-margin-padding( 87px, 100%, 0, 0 0 0 25px);
+        font-family: $fonts_search;
+        font-weight: 500;
+        font-size: 12px;
+        color: $color_thead;
+    }
+
+    > :nth-child(5) {
+        @include width-height-margin-padding( 219px, 100%, 0, 0 0 0 54px);
+        font-family: $fonts_search;
+        font-weight: 400;
+        font-size: 12px;
+        color: $color_row_1;
+    }
+
+    > :nth-child(6) {
+        @include width-height-margin-padding( 119px, 100%, 0, 0);
+        justify-content: center;
+    }
+}
+.dashboard__table__thead {
+    > * {
+        font-size: 11px;
+        font-weight: 500;
+        font-family: $fonts_search;
+        text-transform: uppercase;
+
+        > span,
+        .dashboard__table__thead__sortButton {
+            color: $color_thead;
+        }
+    }
+}
+.dashboard__table__thead__sortButton {
+    cursor: pointer;
+    margin-left: 8px;
+}
+
+
+.dashboard__table__tablebody {
+}
+.dashboard__table__tablebody_row {
+}
+
+.dashboard__table__tablebody_row__button {
+    @include width-height-margin-padding(95px, 30px, 0, 0);
+    border-radius: 10px;
+    color: $background_search;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 500;
+    font-style: normal;
+}

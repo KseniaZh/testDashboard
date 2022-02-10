@@ -1,0 +1,4 @@
+.main_wrapper {
+    @include width-height-margin-padding( 1054px, 790px, 0 auto, 41px 48px 52px);
+    background-color: $background_wrapper;
+}

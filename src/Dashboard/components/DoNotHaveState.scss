@@ -1,0 +1,17 @@
+.doNotHaveState {
+    @include width-height-margin-padding( 100%, auto, 142px 0, 0 );
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.doNotHaveState_title {
+    font-family: $font_title;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.doNotHaveState__button {
+    margin-top: 37px;
+    background-color: $background_button;
+    cursor: pointer;
+}
